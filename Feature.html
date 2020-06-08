@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rama feature</title>
+    </head>
+
+    <body>
+        <h1>Rama Feature</h1>
+
+        <div>
+            <div>
+                <h2>¿Qué es una rama?</h2>
+                <p align="left">
+
+                    Para entender realmente cómo ramifica Git, previamente hemos de examinar la forma en que almacena sus datos.
+                    
+                    Recordando lo citado en Inicio - Sobre el Control de Versiones, Git no los almacena de forma incremental (guardando solo diferencias), sino que los almacena como una serie de instantáneas (copias puntuales de los archivos completos, tal y como se encuentran en ese momento).
+                    
+                    En cada confirmación de cambios (commit), Git almacena una instantánea de tu trabajo preparado. Dicha instantánea contiene además unos metadatos con el autor y el mensaje explicativo, y uno o varios apuntadores a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal, y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o más ramas).
+                    
+                </p>
+                <p>
+                    Una rama Git es simplemente un apuntador móvil apuntando a una de esas confirmaciones. La rama por defecto de Git es la rama master. Con la primera confirmación de cambios que realicemos, se creará esta rama principal master apuntando a dicha confirmación. En cada confirmación de cambios que realicemos, la rama irá avanzando automáticamente.
+                </p>
+
+                <h2>La rama feature</h2>
+                <p>
+                    La rama Feature funciona establecer para nuevas características, nuevos requisitos o nuevas historias de usuario.
+                    
+
+                </p>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </body>
+</html>
